@@ -1,0 +1,141 @@
+/*1.顶部*/
+
+
+/* 顶部外层容器 */
+
+.topbar {
+    height: 28px;
+    background-color: #101010;
+}
+
+
+/* 顶部里层容器 */
+
+.topbar .container {
+    height: 28px;
+    background-color: #101010;
+}
+
+
+/* 里面的p标签 */
+
+.topbar .container p {
+    height: 28px;
+    line-height: 28px;
+    color: #f1f1f1;
+}
+
+
+/* 第一个p标签 */
+
+.topbar .container p:first-child a {
+    text-indent: 210px;
+}
+
+
+/* 第一个p标签下的a标签*/
+
+.topbar .container p:first-child a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* 第二个p标签*/
+
+.topbar .container p:nth-child(2) {
+    margin-right: 10px;
+}
+
+
+/* 第二个p标签下的标题和注册*/
+
+.topbar .container p:nth-child(2) a:not(.login) {
+    color: #ff6700;
+}
+
+
+/* 第二个p标签下的标登录*/
+
+.topbar .container p:nth-child(2) .login {
+    color: #fff;
+}
+
+
+/*2.导航*/
+
+.nav {
+    height: 80px;
+    background-color: #fff;
+}
+
+.nav .search-shopcart-order {
+    margin-top: 5px;
+    height: 35px;
+    background-color: pink;
+}
+
+.nav .category menu {
+    margin-top: 15px;
+    height: 30px;
+    background-color: red;
+}
+
+.nav .search-shopcart-order .search-input {
+    width: 440px;
+    height: 35px;
+    background-color: 口#ff6700;
+    margin-right: 38px;
+    position: relative;
+}
+
+.nav .search-shopcart-order .search-input span {
+    display: inline;
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url(../images/bgicon.png);
+}
+
+.nav .search-shopcart-order .search-input .search {
+    width: 390px;
+    height: 31px;
+    border: 2px solid #ff6700;
+    text-indent: 10px;
+    color: #333;
+    outline: none;
+}
+
+.nav .search-shopcart-order .shopcart-order {
+    width: 200px;
+    height: 35px;
+    background-color: pink;
+    font-size: 0em;
+}
+
+.nav .search-shopcart-order .shopcart-order button {
+    width: 100px;
+    height: 35px;
+    background-color: #ebebeb;
+    border: 1px solid #cccccc;
+    font-size: 13px;
+    color: #333;
+}
+
+.nav .search-shopcart-order .shopcart-order button:nth-child(1) {
+    background-color: #ff6700;
+    color: #fff;
+    background-image: url(../images/bgicon.png);
+    background-repeat: no-repeat;
+    background-position: -4px -44px;
+}
+
+
+/* 3.分类导航和banner */
+
+.menu {
+    height: 500px;
+    background-color: #333;
+}
